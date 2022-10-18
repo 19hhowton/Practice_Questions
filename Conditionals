@@ -34,3 +34,44 @@ INPUT: -1        OUTPUT: 1
         
 9. 🌶️ 🌶️ Modify the above question to allow student to sit if he/she has medical cause. Ask user if he/she has medical cause or not ( 'Y' or 'N' ) and print accordingly.
 
+
+
+🌶️ 🌶️🌶️ 🌶️
+
+def purchase_product(product_type, price):
+    discount = 10
+    total_price = price - price * discount / 100
+    print("Total price of " +product_type+ " is "+str(total_price))
+
+purchase_product("Mobile", 20000)
+purchase_product("Shoe", 200)
+
+# Let us say that we want to update our code such that:
+# If the mobile brand is Apple then the discount is 10% else the discount is 5%
+# All shoes have 2% tax and no discount
+
+def purchase_product(product_type, price, mobile_brand = None):
+    if product_type == "Mobile":
+        if mobile_brand == "Apple":
+            discount = 10
+        else:
+            discount = 5
+        total_price = price - price * discount / 100
+    else:
+        total_price = price + price * 2 / 100
+    print("Total price of " +product_type+ " is "+str(total_price))
+purchase_product("Mobile", 20000, "Apple")
+purchase_product("Shoe", 200)
+
+
+
+class Mobile:
+    # a constructor
+    def __init__(self):
+        pass
+    # a Destructor
+    def __del__(self):
+        print(f"Deleting the object: {self}")
+
+    def purchase(self):
+        print("Purchasing a mobile")
