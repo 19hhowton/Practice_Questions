@@ -60,6 +60,11 @@ Expected Output:
     Sample Input: 'ROSE'
     Expected Ouput: "rose"
     Hint: Use .lower()
+    
+🌶️ Write a Python script that takes input from the user and if the word is "the" capitalize the word.
+    Sample Input: 'the quick brown fox jumps over the lazy dog'
+    Expected Output: 'THE quick brown fox jumps over THE lazy dog'
+    Hint: Use .split() and .upper()
 
 🌶️ Take a word from the user and reverse it. 
     Sample Input: 'ROSE'
