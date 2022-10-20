@@ -9,63 +9,96 @@ S
 O
 N
 
-🌶️ Write a Python program to get a string made of the first 2 and the last 2 chars from a given a string. 
-If the string length is less than 2, return instead of the empty string. 
-Sample String : 'w3resource'
-Expected Result : 'w3ce'
-Sample String : 'w3'
-Expected Result : 'w3w3'
-Sample String : ' w'
-Expected Result : Empty String
+🌶️ Write a Python program to print all the odd index values of a given string. 
+Expected Output:
+'R'
+'S'
+...
+'N'
+
+🌶️ Write a Python program to print all the odd index values of a given string as a string. 
+Expected Output:
+'RS OTN'
+
+🌶️ Concatonate the following and print.
+    Sample Input: 'Rose' 
+                    'is' 
+                    'a' 
+                    'future'
+                    'programmer'
+    Expected Output: "Rose is a future programmer"
+    Hint: Use + sign and ' ' spaces
+
+🌶️ Write a Python script that takes input from the user and displays a string Split into a list of strings.
+    Sample Input: "Rose is a future programmer"
+    Expected Output: ['Rose', 'is', 'a', 'future', 'programmer']
+    
+    Sample Input: "ROSE"
+    Expected Output: ['R','O','S','E']
+    
+    Hint: Use .split()
+    
+🌶️ Write a Python program to count the occurrences of the letter 'o' in a given sentence using a counter.
+    Hint: counter = 0
+    
+🌶️🌶️ Write a Python program to count the occurrences of the word 'the' in a given sentence. 
+    Sample Input: 'the quick brown fox jumps over the lazy dog'
+    Expected Output: o appears this many times:  2
+    Hint: Use .split()
+
+🌶️ Write a Python script that takes input from the user and displays a list of strings Joined into a string.
+    Sample Input: ['Rose', 'is', 'a', 'future', 'programmer']
+    Expected Ouput: "Rose is a future programmer"
+    Hint: Use ''.join()
+
+🌶️ Write a Python script that takes input from the user and displays that input back in upper cases.
+    Sample Input: 'rose'
+    Expected Ouput: "ROSE"
+    Hint: Use .upper()
+
+🌶️ Write a Python script that takes input from the user and displays that input back in lower cases.
+    Sample Input: 'ROSE'
+    Expected Ouput: "rose"
+    Hint: Use .lower()
+
+🌶️ Take a word from the user and reverse it. 
+    Sample Input: 'ROSE'
+    Expected Ouput: "ESOR"
+    Hint: You've done this before in a for loop
+
+🌶️🌶️ Write a Python script that takes input from the user and reverses a string if it's length is greater than 4.
+
+🌶️🌶️ Write a Python script that takes input from the user and reverses a string if it's length is a multiple of 4.
+
+🌶️  Write a Python program to count the occurrences of the letter 'o' in a given sentence. 
+    Sample Input: 'the quick brown fox jumps over the lazy dog'
+    Expected Output: o appears this many times:  4 
+    Hint: Use .count()
+
+🌶️🌶️ Write a Python program to remove all uppercase letters on a given string.
+    Sample Input: 'the quick brown fox JUMPS over the lazy DOG'
+    Expected Ouput: 'the quick brown fox over the lazy'
+    Hint: Use .islower()
+
+🌶️🌶️ Write a Python program to remove all nubmers letters on a given string.
+    Sample Input: 'the quick brown fox JUMPS over 100 lazy DOGS'
+    Expected Ouput: 'the quick brown fox over the lazy'
+    Hint: Use .isdigit()
+
+🌶️ Write a Python program to print the first two and last two letters of a string. 
 
 
-🌶️ Write a Python program to get a string from a given string where all occurrences of its first char have been changed to '$', 
-except the first char itself. 
-Sample String : 'restart'
-Expected Result : 'resta$t'
+🌶️🌶️🌶️ Write a Python program to get a string made of the first 2 and the last 2 chars from a given a string. 
+    But, If the string length is greater than 2 and less than 4, return the string printed twice. 
+    If the string length is less than 2, return an empty string. 
+    Sample String : 'w3resource'
+    Expected Result : 'w3ce'
 
+    Sample String : 'w3r'
+    Expected Result : 'w3rw3r'
 
-🌶️ Write a Python program to get a single string from two given strings, separated by a space and swap the first two characters of each string.
-Sample String : 'abc', 'xyz'
-Expected Result : 'xyc abz'
-
-
-🌶️ Write a Python program to add 'ing' at the end of a given string (length should be at least 3).
-If the given string already ends with 'ing' then add 'ly' instead. If the string length of the given string is less than 3, leave it unchanged. 
-Sample String : 'abc'
-Expected Result : 'abcing'
-Sample String : 'string'
-Expected Result : 'stringly'
-
-🌶️🌶️🌶️Write a Python program that accepts a word from the user and reverse it.
-A. Using range()
-B. Not using range
-C. Using the slice ([]) operator
-D. Using while loop
-E. Using reverse function with join
-
-🌶️ You need to create an if statement to send accurate alerts to passengers. 
-`boarding_call="Good Evening, this is the final call to AL passengers for the flight AL 466 which is planned to take off at 8.40A.M."`
-    1. Oh no! Replace Good Evening with Good Morning in the below boarding call string. You would use two string functions. 
-    2.  Check if the string has “AL”. If so, then print "Welcome to Air Lines." in the consol. You would use one string functions. 
-    3.  Check if the string says AM or PM. If AM print “Passengers are requested to have their breakfast.”
+    Sample String : ' w'
+    Expected Result : ''
 
 🌶️ Write a Python program to change a given string to a new string where the first and last chars have been exchanged. 
 
-
-🌶️ Write a Python program to remove the characters which have odd index values of a given string.
-
-
-🌶️ Write a Python program to count the occurrences of each word in a given sentence
-
-
-🌶️ Write a Python script that takes input from the user and displays that input back in upper and lower cases.
-
-
-🌶️ Write a Python function to reverses a string if it's length is a multiple of 4.
-
-
-🌶️ Write a Python function to create the HTML string with tags around the word(s). 
-Sample function and result :
-add_tags('i', 'Python') -> '<i>Python</i>'
-add_tags('b', 'Python Tutorial') -> '<b>Python Tutorial </b>'
